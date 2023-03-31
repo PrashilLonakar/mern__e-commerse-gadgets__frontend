@@ -32,15 +32,15 @@ const Header = () => {
               </h1>
             </div>
             <div className="col-5">
-              <div class="input-group">
+              <div className="input-group">
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Search Product here..."
                   aria-label="Search Product here..."
                   aria-describedby="basic-addon2"
                 />
-                <span class="input-group-text" id="basic-addon2">
+                <span className="input-group-text" id="basic-addon2">
                   <BsSearch />
                 </span>
               </div>
