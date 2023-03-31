@@ -360,8 +360,77 @@ footer .input-group-text {
   padding: 10px;
   border-radius: 10px;
   background-color: white;
+  width: 100%;
 }
 
+.special-product-card .special-product-image {
+  width: 40%;
+}
+
+.special-product-card .special-product-image img {
+  width: 100%;
+}
+
+.special-product-card .special-product-content {
+  width: 60%;
+}
+
+/* .special-product-card .special-product-content .discount-till .badge {
+  color: #eb35b0;
+} */
+
 /* Special Product card end here */
+
+/* Famous card */
+
+.famous-card {
+  border-radius: 10px;
+  background-color: white;
+  width: 100%;
+  height: 420px;
+  box-shadow: 0 0 10px var(--color-shadow1);
+}
+
+.famous-card .famous-image {
+  width: 100%;
+  height: 100%;
+}
+
+.famous-card .famous-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.famous-card .famous-content {
+  top: 10%;
+  left: 10%;
+}
+
+.famous-card .famous-content h6 {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400px;
+  color: var(--color-777777);
+  margin-bottom: 7px;
+}
+
+.famous-card .famous-content h5 {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 500px;
+  color: var(--color-131921);
+  margin-bottom: 10px;
+}
+
+.famous-card .famous-content p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 100px;
+  color: var(--color-777777);
+}
+
+/* Famous card end here */
 
 /* Home Part end here*/
