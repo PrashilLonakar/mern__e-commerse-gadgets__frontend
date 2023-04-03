@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 import BlogCard from "../components/common/BlogCard";
 import ProductCard from "../components/common/ProductCard";
@@ -214,10 +214,10 @@ const Home = () => {
             <div className="col-12">
               <h3 className="section-heading">Featured Collection</h3>
             </div>
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
+            <ProductCard style={{ height: "400px" }} />
+            <ProductCard style={{ height: "400px" }} />
+            <ProductCard style={{ height: "400px" }} />
+            <ProductCard style={{ height: "400px" }} />
           </div>
         </div>
       </section>
