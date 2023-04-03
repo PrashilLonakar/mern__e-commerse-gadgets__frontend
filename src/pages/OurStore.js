@@ -263,7 +263,7 @@ const OurStore = () => {
               </div>
               <div className="product-list pb-5">
                 <div className="d-flex gap-10 flex-wrap">
-                  <ProductCard style={{ height: "350px" }} grid={grid} />
+                  <ProductCard grid={grid} />
                 </div>
               </div>
             </div>

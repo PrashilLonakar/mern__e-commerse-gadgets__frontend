@@ -13,7 +13,7 @@ const ProductCard = (props) => {
           location.pathname === "/store" ? `gr-${grid}` : "col-3 mb-2"
         }`}
       >
-        <div className="product-card position-relative" style={props.style}>
+        <div className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
             <Link>
               <img src="images/wish.svg" alt="wishlist" />
@@ -58,7 +58,7 @@ const ProductCard = (props) => {
           location.pathname === "/store" ? `gr-${grid}` : "col-3 mb-2"
         }`}
       >
-        <div className="product-card position-relative" style={props.style}>
+        <div className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
             <Link>
               <img src="images/wish.svg" alt="wishlist" />
@@ -73,6 +73,17 @@ const ProductCard = (props) => {
             <h5 className="product-title">
               Kids Headphones bulk 10 pack multi colored for students.
             </h5>
+            <p
+              className={`product-description ${
+                grid === 12 ? "d-block" : "d-none"
+              }`}
+            >
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content. Some quick example text to build on
+              the card title and make up the bulk of the card's content. Some
+              quick example text to build on the card title and make up the bulk
+              of the card's content.
+            </p>
             <ReactStars
               count={5}
               value={3}
