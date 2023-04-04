@@ -633,6 +633,9 @@ footer .input-group-text {
 }
 
 /* Contacts end here*/
+
+/* compare-product*/
+
 .compare-product-card {
   padding: 20px 15px;
   background-color: white;
@@ -668,6 +671,34 @@ footer .input-group-text {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-/* compare-product*/
-
 /* compare-product end here*/
+
+/* wishlist*/
+
+/* .wishlist-card {
+  padding: 20px 15px;
+  background-color: white;
+  border-radius: 10px;
+} */
+
+.wishlist-card .cross {
+  top: 15px;
+  right: 15px;
+  width: 25px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.wishlist-card .wishlist-details h5 .title {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 500;
+  color: var(--color-1c1c1b);
+}
+
+.wishlist-card .wishlist-details h6 .price {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+}
+/* wishlist end here*/
