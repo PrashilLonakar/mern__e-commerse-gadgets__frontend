@@ -702,3 +702,50 @@ footer .input-group-text {
   font-weight: 400;
 }
 /* wishlist end here*/
+
+/* Auth-card */
+
+.auth-card {
+  padding: 20px;
+  background-color: white;
+  width: 500px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.auth-card h3 {
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--color-777777);
+}
+
+.auth-card .form-control {
+  height: 50px;
+  background-color: var(--color-f7f7f7);
+  color: var(--color-777777);
+  font-size: 14px;
+  border-radius: 10px;
+  border-color: transparent;
+}
+
+.auth-card a {
+  color: var(--color-1c1c1b);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.auth-card .signup {
+  background-color: var(--color-febd69);
+  color: var(--color-131921);
+}
+
+.auth-card .signup:hover {
+  background-color: var(--color-131921);
+  color: white;
+}
+
+.auth-card p {
+  font-size: 13px;
+  color: var(--color-777777);
+}
+/* Auth-card end here*/
