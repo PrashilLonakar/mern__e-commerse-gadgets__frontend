@@ -6,7 +6,6 @@ import ProductCard from "../components/common/ProductCard";
 
 const OurStore = () => {
   const [grid, setGrid] = useState(4);
-  alert(grid);
   return (
     <>
       <Meta title={"Our Store"}></Meta>

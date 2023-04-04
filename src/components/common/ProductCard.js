@@ -5,7 +5,6 @@ import { NavLink, Link, useLocation } from "react-router-dom";
 const ProductCard = (props) => {
   const { grid } = props;
   let location = useLocation();
-  console.log(location);
   return (
     <>
       <div

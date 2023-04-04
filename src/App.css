@@ -256,6 +256,10 @@ footer .input-group-text {
   border-top-right-radius: 10px;
 }
 
+.blog-card .card-image img {
+  width: 100%;
+}
+
 .blog-content {
   padding: 15px;
 }
