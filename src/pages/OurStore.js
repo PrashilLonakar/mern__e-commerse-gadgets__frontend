@@ -3,6 +3,7 @@ import BreadCrumbs from "../components/common/BreadCrumbs";
 import Meta from "../components/common/Meta";
 import ReactStars from "react-rating-stars-component";
 import ProductCard from "../components/common/ProductCard";
+import Color from "../components/common/Color";
 
 const OurStore = () => {
   const [grid, setGrid] = useState(4);
@@ -87,18 +88,7 @@ const OurStore = () => {
                   <h5 className="sub-title">Colors</h5>
                   <div>
                     <div>
-                      <ul className="colors">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                      </ul>
+                      <Color />
                     </div>
                   </div>
                 </div>
