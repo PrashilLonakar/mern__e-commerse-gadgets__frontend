@@ -16,7 +16,7 @@ const BlogCard = () => {
                 </h2> */}
         </h5>
         <p className="desc">addfsfefe wefewgew ewgeewgew fewfewfee ewge</p>
-        <Link to="/" className="button">
+        <Link to="/blog/:id" className="button">
           Read More
         </Link>
       </div>

@@ -293,6 +293,24 @@ footer .input-group-text {
   font-weight: 500;
   margin-bottom: 30px;
 }
+
+.blog-wrapper .single-blog-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+}
+
+.blog-wrapper .single-blog-card p {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+
+.blog-wrapper .single-blog-card a {
+  font-size: 15px;
+  color: var(--color-777777);
+  margin-bottom: 20px;
+}
+
 /* Blog Part end here */
 
 /* Product card Part */
