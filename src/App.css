@@ -767,3 +767,11 @@ footer .input-group-text {
   color: var(--color-777777);
 }
 /* Auth-card end here*/
+
+/* Policy pages*/
+.policy-wrapper .policy {
+  background-color: white;
+  padding: 30px;
+}
+
+/* Policy Pages end here*/
