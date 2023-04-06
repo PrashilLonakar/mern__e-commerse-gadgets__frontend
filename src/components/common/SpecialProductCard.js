@@ -1,6 +1,7 @@
 import React from "react";
 import ReactStars from "react-rating-stars-component";
 import { NavLink, Link } from "react-router-dom";
+import watch from "../../images/watch.jpg";
 
 const SpecialProductCard = () => {
   return (
@@ -8,11 +9,7 @@ const SpecialProductCard = () => {
       <div className="special-product-card">
         <div className="d-flex justify-content-between">
           <div className="special-product-image">
-            <img
-              className="image-fluid"
-              src="images/watch.jpg"
-              alt="special product"
-            />
+            <img className="image-fluid" src={watch} alt="special product" />
           </div>
           <div className="special-product-content">
             <h5 className="brand">Havells</h5>
