@@ -4,9 +4,16 @@ import Meta from "../components/common/Meta";
 import ReactStars from "react-rating-stars-component";
 import ProductCard from "../components/common/ProductCard";
 import Color from "../components/common/Color";
+import ReactImageZoom from "react-image-zoom";
 
 const ProductDetail = () => {
   const [orderProduct, setOrderProduct] = useState(true);
+  const props = {
+    width: 500,
+    height: 500,
+    zoomWidth: 500,
+    img: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+  };
   return (
     <>
       <Meta title={"Dynamic Product Name"}></Meta>
@@ -14,6 +21,43 @@ const ProductDetail = () => {
       <div className="main-product-wrapper py-5 home-wrapper-2">
         <div className="container-xxl">
           <div className="row">
+            <div className="col-6">
+              <div className="main-product-image">
+                <div>
+                  <ReactImageZoom {...props} />
+                </div>
+                <div className="other-product-images d-flex flex-wrap gap-10">
+                  <div>
+                    <img
+                      src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                      alt="other-images"
+                      className="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                      alt="other-images"
+                      className="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                      alt="other-images"
+                      className="img-fluid"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                      alt="other-images"
+                      className="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="col-6"></div>
           </div>
         </div>

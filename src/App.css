@@ -778,6 +778,33 @@ footer .input-group-text {
 
 /* Main Product pages*/
 
+.main-product-wrapper .main-product-image {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.main-product-wrapper .main-product-image img:not(:last-child) {
+  width: 100% !important;
+  height: 500px !important;
+  object-fit: cover;
+}
+
+.main-product-wrapper .main-product-image > div {
+  /* border: 1px solid rgba(0, 0, 0, 0.25); */
+}
+
+.main-product-wrapper .other-product-images {
+  padding: 20px 0px;
+  background-color: white;
+}
+
+.main-product-wrapper .other-product-images > div {
+  padding: 20px;
+  width: 49%;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
 .review-wrapper .review-inner-wrapper {
   background-color: white;
   padding: 30px;
