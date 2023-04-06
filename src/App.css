@@ -910,3 +910,32 @@ footer .input-group-text {
 }
 
 /* Main Product pages end here*/
+
+/* Cart pages*/
+
+.cart-wrapper .cart-header {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.cart-wrapper .table .cart-data tr {
+  border-bottom: 1px solid #eaeaea;
+  padding: 20px 20px;
+}
+
+.cart-wrapper .table thead th {
+  font-size: 13px;
+  color: var(--color-777777);
+  text-transform: uppercase;
+}
+
+.cart-wrapper .table tbody td .td-product h5 {
+  font-size: 13px;
+  color: var(--color-777777);
+}
+
+.cart-wrapper .table tbody td .td-product p {
+  font-size: 12px;
+  color: var(--color-777777);
+}
+
+/* Cart pages end here*/ ;
