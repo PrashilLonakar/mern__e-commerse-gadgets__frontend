@@ -1,6 +1,12 @@
 import React from "react";
 import ReactStars from "react-rating-stars-component";
-import { NavLink, Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import prodcompare from "../../images/prodcompare.svg";
+import wish from "../../images/wish.svg";
+import watch from "../../images/watch.jpg";
+import watch2 from "../../images/watch2.jpg";
+import addcart from "../../images/add-cart.svg";
+import view from "../../images/view.svg";
 
 const ProductCard = (props) => {
   const { grid } = props;
@@ -9,18 +15,18 @@ const ProductCard = (props) => {
     <>
       <div
         className={`${
-          location.pathname === "/store" ? `gr-${grid}` : "col-3 mb-2"
+          location.pathname === "/product" ? `gr-${grid}` : "col-3 mb-2"
         }`}
       >
-        <div className="product-card position-relative">
+        <Link to=":id" className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
             <Link>
-              <img src="images/wish.svg" alt="wishlist" />
+              <img src={wish} alt="wishlist" />
             </Link>
           </div>
           <div className="product-image">
-            <img src="images/watch.jpg" alt="product image" />
-            <img src="images/watch2.jpg" alt="product image" />
+            <img src={watch} alt="product image" />
+            <img src={watch2} alt="product image" />
           </div>
           <div className="product-details">
             <h6 className="brand">Havells</h6>
@@ -40,32 +46,32 @@ const ProductCard = (props) => {
             <div className="wishlist-icon"></div>
             <div className="d-flex flex-column gap-15">
               <Link>
-                <img src="images/prodCompare.svg" alt="addcart" />
+                <img src={prodcompare} alt="addcart" />
               </Link>
               <Link>
-                <img src="images/view.svg" alt="view" />
+                <img src={view} alt="view" />
               </Link>
               <Link>
-                <img src="images/add-cart.svg" alt="addcart" />
+                <img src={addcart} alt="addcart" />
               </Link>
             </div>
           </div>
-        </div>
+        </Link>
       </div>
       <div
         className={`${
-          location.pathname === "/store" ? `gr-${grid}` : "col-3 mb-2"
+          location.pathname === "/product" ? `gr-${grid}` : "col-3 mb-2"
         }`}
       >
-        <div className="product-card position-relative">
+        <Link to=":id" className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
             <Link>
-              <img src="images/wish.svg" alt="wishlist" />
+              <img src={wish} alt="wishlist" />
             </Link>
           </div>
           <div className="product-image">
-            <img src="images/watch.jpg" alt="product image" />
-            <img src="images/watch2.jpg" alt="product image" />
+            <img src={watch} alt="product image" />
+            <img src={watch2} alt="product image" />
           </div>
           <div className="product-details">
             <h6 className="brand">Havells</h6>
@@ -96,17 +102,17 @@ const ProductCard = (props) => {
             <div className="wishlist-icon"></div>
             <div className="d-flex flex-column gap-15">
               <Link>
-                <img src="images/prodCompare.svg" alt="addcart" />
+                <img src={prodcompare} alt="addcart" />
               </Link>
               <Link>
-                <img src="images/view.svg" alt="view" />
+                <img src={view} alt="view" />
               </Link>
               <Link>
-                <img src="images/add-cart.svg" alt="addcart" />
+                <img src={addcart} alt="addcart" />
               </Link>
             </div>
           </div>
-        </div>
+        </Link>
       </div>
     </>
   );

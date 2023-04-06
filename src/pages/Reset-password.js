@@ -1,7 +1,6 @@
 import React from "react";
 import BreadCrumbs from "../components/common/BreadCrumbs";
 import Meta from "../components/common/Meta";
-import { Link } from "react-router-dom";
 
 const ResetPassword = () => {
   return (
