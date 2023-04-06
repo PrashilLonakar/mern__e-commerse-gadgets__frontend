@@ -5,7 +5,6 @@ import ReactStars from "react-rating-stars-component";
 import ProductCard from "../components/common/ProductCard";
 import Color from "../components/common/Color";
 import ReactImageZoom from "react-image-zoom";
-import { Link } from "react-router-dom";
 import { BiGitCompare } from "react-icons/bi";
 import { AiOutlineHeart } from "react-icons/ai";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import blog1 from "../../images/blog-1.jpg";
 
 const BlogCard = () => {

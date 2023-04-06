@@ -1,12 +1,10 @@
 import React from "react";
 import ReactStars from "react-rating-stars-component";
-import { NavLink, Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import prodcompare from "../../images/prodcompare.svg";
 import wish from "../../images/wish.svg";
-import wishlist from "../../images/wishlist.svg";
 import watch from "../../images/watch.jpg";
 import watch2 from "../../images/watch2.jpg";
-import watch3 from "../../images/watch3.jfif";
 import addcart from "../../images/add-cart.svg";
 import view from "../../images/view.svg";
 
