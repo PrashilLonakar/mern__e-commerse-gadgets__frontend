@@ -3,26 +3,18 @@ import BreadCrumbs from "../components/common/BreadCrumbs";
 import Meta from "../components/common/Meta";
 import { Link } from "react-router-dom";
 
-const Login = () => {
+const ResetPassword = () => {
   return (
     <>
-      <Meta title={"Login"}></Meta>
-      <BreadCrumbs title="Login" />
-      <div className="login-wrapper py-5 home-wrapper-2">
+      <Meta title={"Reset-Password"}></Meta>
+      <BreadCrumbs title="Reset-Password" />
+      <div className="reset-password-wrapper py-5 home-wrapper-2">
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
               <div className="auth-card">
-                <h3 className="text-center">Login</h3>
+                <h3 className="text-center">Reset Password</h3>
                 <form action="" className="d-flex flex-column gap-15">
-                  <div>
-                    <input
-                      type="email"
-                      name="email"
-                      placeholder="Email"
-                      className="form-control"
-                    />
-                  </div>
                   <div className="mt-1">
                     <input
                       type="password"
@@ -31,15 +23,19 @@ const Login = () => {
                       className="form-control"
                     />
                   </div>
+                  <div className="mt-1">
+                    <input
+                      type="password"
+                      name="confpassword"
+                      placeholder="Confirm Password"
+                      className="form-control"
+                    />
+                  </div>
                   <div>
-                    <Link to="/forgot-password">Forgot Password?</Link>
-                    <div className="mt-3 d-flex justify-content-center gap-15 align-items-center">
+                    <div className="mt-3 d-flex justify-content-center flex-column gap-15 align-items-center">
                       <button className="button border-0" type="submit">
-                        Login
+                        Ok
                       </button>
-                      <Link to="/sign-up" className="button signup">
-                        SignUp
-                      </Link>
                     </div>
                   </div>
                 </form>
@@ -52,4 +48,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default ResetPassword;
