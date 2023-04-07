@@ -938,4 +938,30 @@ footer .input-group-text {
   color: var(--color-777777);
 }
 
-/* Cart pages end here*/ ;
+/* Cart pages end here*/
+
+/* Checkout pages*/
+
+.checkout-wrapper .w-25 .image-fluid {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.checkout-wrapper .badge {
+  top: -10px;
+  right: -5px;
+  padding: 0.5rem 0.7rem;
+}
+
+.checkout-wrapper .total {
+  font-size: 14px;
+  color: var(--color-1c1c1b);
+}
+.checkout-wrapper .total-price {
+  font-size: 16px;
+  color: var(--color-777777);
+}
+
+/* Checkout pages end here*/
