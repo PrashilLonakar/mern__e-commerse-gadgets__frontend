@@ -1,6 +1,6 @@
 import React from "react";
 import ReactStars from "react-rating-stars-component";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import watch from "../../images/watch.jpg";
 
 const SpecialProductCard = () => {
