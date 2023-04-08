@@ -11,6 +11,7 @@ import Container from "../components/common/Container";
 
 const ProductDetail = () => {
   const [orderProduct, setOrderProduct] = useState(true);
+  console.log(setOrderProduct);
   const copyToClipboard = (text) => {
     console.log("text", text);
     var textField = document.createElement("textarea");
@@ -42,28 +43,28 @@ const ProductDetail = () => {
                 <div>
                   <img
                     src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                    alt="other-images"
+                    alt="other"
                     className="img-fluid"
                   />
                 </div>
                 <div>
                   <img
                     src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                    alt="other-images"
+                    alt="other"
                     className="img-fluid"
                   />
                 </div>
                 <div>
                   <img
                     src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                    alt="other-images"
+                    alt="other"
                     className="img-fluid"
                   />
                 </div>
                 <div>
                   <img
                     src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                    alt="other-images"
+                    alt="other"
                     className="img-fluid"
                   />
                 </div>
@@ -161,13 +162,13 @@ const ProductDetail = () => {
                 </div>
                 <div className="d-flex align-items-center gap-15">
                   <div>
-                    <a href="">
+                    <a href="/#">
                       <BiGitCompare className="fs-5 me-2" />
                       Add to Compare
                     </a>
                   </div>
                   <div>
-                    <a href="">
+                    <a href="/#">
                       <AiOutlineHeart className="fs-5 me-2" />
                       Add to Wishlist
                     </a>
@@ -184,7 +185,7 @@ const ProductDetail = () => {
                 <div className="d-flex gap-10 align-items-center my-3">
                   <h3 className="product-heading">Product Link :</h3>
                   <a
-                    href="javascript:void(0)"
+                    href="/#"
                     onClick={() => {
                       copyToClipboard(
                         "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
@@ -237,7 +238,10 @@ const ProductDetail = () => {
                 </div>
                 {orderProduct && (
                   <div>
-                    <a className="text-dark text-decoration-underline" href="">
+                    <a
+                      className="text-dark text-decoration-underline"
+                      href="/#"
+                    >
                       Write a Review
                     </a>
                   </div>

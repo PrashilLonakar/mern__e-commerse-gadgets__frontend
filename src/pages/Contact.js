@@ -22,6 +22,8 @@ const Contact = () => {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
+              id="frame1"
+              title="frame1"
             ></iframe>
           </div>
           <div className="col-12 mt-5">
