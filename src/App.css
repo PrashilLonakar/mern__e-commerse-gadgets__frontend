@@ -594,6 +594,9 @@ footer .input-group-text {
 
 .gr-12 .action-bar {
   top: 14%;
+}
+
+.gr-12 .product-card:hover .action-bar {
   right: 13px;
 }
 
