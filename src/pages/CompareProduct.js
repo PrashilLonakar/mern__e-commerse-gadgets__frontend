@@ -19,7 +19,7 @@ const CompareProduct = () => {
                 className="position-absolute cross img-fluid"
               />
               <div className="product-card-image">
-                <img src="images/watch.jpg" alt="product-card-image" />
+                <img src="images/watch.jpg" alt="product-card" />
               </div>
               <div className="compare-product-detail">
                 <h5 className="title">Galaxy watch Active 2 144mm</h5>
@@ -60,7 +60,7 @@ const CompareProduct = () => {
                 className="position-absolute cross img-fluid"
               />
               <div className="product-card-image">
-                <img src="images/watch.jpg" alt="product-card-image" />
+                <img src="images/watch.jpg" alt="product-card" />
               </div>
               <div className="compare-product-detail">
                 <h5 className="title">Galaxy watch Active 2 144mm</h5>
@@ -101,7 +101,7 @@ const CompareProduct = () => {
                 className="position-absolute cross img-fluid"
               />
               <div className="product-card-image">
-                <img src="images/watch.jpg" alt="product-card-image" />
+                <img src="images/watch.jpg" alt="product-card" />
               </div>
               <div className="compare-product-detail">
                 <h5 className="title">Galaxy watch Active 2 144mm</h5>
