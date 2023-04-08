@@ -42,7 +42,7 @@ const Cart = () => {
                 <tr>
                   <td style={{ width: "40%" }}>
                     <div className="d-flex align-items-center gap-15">
-                      <img width="110px" src={watch} alt="product-image" />
+                      <img width="110px" src={watch} alt="product" />
                       <div className="td-product">
                         <h5 className="title">
                           Kids Headphones bulk 10 pack multi colored for
@@ -90,7 +90,7 @@ const Cart = () => {
                 <tr>
                   <td style={{ width: "40%" }}>
                     <div className="d-flex align-items-center gap-15">
-                      <img width="110px" src={watch2} alt="product-image" />
+                      <img width="110px" src={watch2} alt="product" />
                       <div className="td-product">
                         <h5 className="title">
                           Kids Headphones bulk 10 pack multi colored for
